@@ -15,9 +15,9 @@ def layout():
             dcc.Markdown('Director of the Department of Accounting, College of Finance, Nanjing Agricultural University')
         ], width=4),
         dbc.Col([
-            dcc.Markdown('Hao is very professional. I really appreciate his quick thinking '
-                         'and great teamwork. I know a coach is not supposed to say this, but '
-                         'although O. Dembélé is a great player, Hao is my Forward Favorito.',
+            dcc.Markdown('I have known Hao for over two years. '
+                         'He enrolled in my courses Research and Innovation Training, Auditing, and Non-Profit Organization Accounting.  '
+                         'He was an intelligent and diligent student and finished all of the assignments with high quality.',
                          className='ms-3'),
         ], width=5)
     ], justify='center'),
@@ -29,9 +29,9 @@ def layout():
             dcc.Markdown('Associate Professor of the Department of Investment, College of Finance, Nanjing Agricultural University')
         ], width=4),
         dbc.Col([
-            dcc.Markdown('Hao is so good with the ball. Every time he has the ball, I can see the stadium rise to its feet.'
-                         ' And he always shares goal opportunities with his teammates. The opposite of selfish. I know it is not '
-                         'appropriate for a player to say this, but I wish Hao was our coach instead of Xavier.',
+            dcc.Markdown('Hao Chen was a conscientious member of the class and had a positive and mature attitude towards his learning. '
+                         'He sat in the front row and frequently interacted with me. '
+                         'It is worth mentioning that he was always willing to take on more difficult topics for coursework and handled them well.',
                          className='ms-3'),
         ], width=5)
     ], justify='center'),
@@ -43,7 +43,7 @@ def layout():
             dcc.Markdown('Finance Manager of Bigo Technology Pte. Ltd.')
         ], width=4),
         dbc.Col([
-            dcc.Markdown('xxxxxxxxxxxx',
+            dcc.Markdown('Hao was always willing to learn new stuff and had an insight into discovering ways to automate and simplify working procedures. That was pretty impressive. ',
                          className='ms-3'),
         ], width=5)
     ], justify='center')

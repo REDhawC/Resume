@@ -35,14 +35,14 @@ layout = html.Div([
             dcc.Markdown('03/2021 - 06/2022', style={'textAlign': 'center'})
         ], width=2),
         dbc.Col([
-            dcc.Markdown('The effect of blockchain on stock price crash: a quantitative research\n'
+            dcc.Markdown('The effect of blockchain on stock price crash risk: quantitative research\n'
                          'Undergraduate Research Training Program',
                          style={'white-space': 'pre','font-weight': 'bold'},
                          className='ms-3'),
             html.Ul([
                 html.Li('Built a dataset on 38 listed companies across 7 industries that integrated blockchain technology into operations and their stock price performance from 2017 to 2022;'),
                 html.Li('Performed multiple linear regression analysis with backward elimination in STATA and used PSM(Propensity Score Matching) to do robustness check;'),
-                html.Li('Results showed that the use of blockchain tech increased the risks of stock price crash.')
+                html.Li('Results showed that the use of blockchain tech decreased the risks of stock price crashes.')
                           ])
         ], width=7)
     ], justify='center'),
@@ -158,7 +158,7 @@ layout = html.Div([
         dbc.Col([
             dcc.Markdown('''
         * Language Skills: Chinese (native), English (fluent, 2nd prize in national English competitions in 2020&21) 
-        * Computer Skills: Python, VBA, SQL, STATA,  Tableau, Power BI
+        * Computer Skills: Python, VBA, SQL, STATA,  Tableau, Power BI, SPSS, Eviews
         * Interests: Football
         ''')
         ], width={"size": 7, "offset": 1}),

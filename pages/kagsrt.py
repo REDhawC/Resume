@@ -1,6 +1,7 @@
 import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc
+import dash_gif_component as gif
 from .side_bar import sidebar
 
 dash.register_page(__name__)
@@ -16,7 +17,15 @@ def layout():
 
             dbc.Col(
                 [
-                    html.H3('beautiful app 2'),
+                    html.H3('The effect of blockchain on stock price crash risk: quantitative research', style={'textAlign': 'center'}),
+
+                    html.Hr(),
+
+                    gif.GifPlayer(
+                        gif='assets/gif4.gif',
+                        still='assets/pause.png',
+                        autoplay=True,
+                    ),
                 ], xs=8, sm=8, md=10, lg=10, xl=10, xxl=10)
         ]
     )
