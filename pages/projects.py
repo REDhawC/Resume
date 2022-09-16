@@ -33,7 +33,7 @@ def layout():
                     ),
                     dcc.Markdown('[click here to visit the website of this dashboard](https://redhawc-fd.onrender.com)',
                                  style={'textAlign': 'center', 'fontSize': 18}),
-                    dcc.Markdown('(Sorry for the slow loading! Please refresh for a few times!)',
+                    dcc.Markdown('(Sorry for the slow loading! Please refresh a few times!)',
                                  style={'textAlign': 'center', 'fontSize': 18}),
 
                     dcc.Markdown(
